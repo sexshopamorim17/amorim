@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2? family= Poppins & display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: -webkit-gradient(linear, left bottom, left top, from(#e94646), to(#ff0000)) fixed;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.back {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(226, 46, 46);
+    width: 90px;
+    border-radius: 4px;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 5px;
+    padding-left: 5px;
+    padding-right: 9px;
+    text-decoration: none;
+}
+
+.back:hover {
+    background-color: red;
+}
+
+
+.img-back {
+    width: 23px;
+    padding-left: 5px;
+}
+
+.text-back {
+    color: white;
+    margin-left: 3px;
+    margin-top: 2px;
+    font-family: 10px;
+    font-family: 'Roboto', sans-serif ;
+    padding-left: 5px;
+}
+
+.main {
+    text-align: center;
+    width: 500px;
+    height: 610px;
+    border-radius: 3px;
+    background-color: white;
+}
+
+.img-produto {
+    width: 220px;
+}
+
+.titulo-produto {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+h2 {
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+
+.text {
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    text-align: justify;
+    margin: 20px;
+}
+
+
+button {
+    padding: 7px 16px;
+    border: 1px solid red;
+    border-radius: 4px;
+    background-color: white;
+    cursor: pointer;
+    font-size: 13px;
+}
+
+button:hover {
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+/* Responsividade */
+
+@media (max-width: 540px) {
+    .main {
+        text-align: center;
+        width: 350px;
+        height: 550px;
+        border-radius: 3px;
+        background-color: white;
+        padding-bottom: -20px;
+    }
+    
+    .img-produto {
+        width: 150px;
+    }
+
+    h2 {
+        font-weight: 300;
+        font-family: 'Roboto', sans-serif;
+        margin-bottom: 5px;
+        font-size: 20px;
+    }
+    
+    .text {
+        font-weight: 300;
+        font-family: 'Roboto', sans-serif;
+        font-size: 15px;
+        text-align: justify;
+        margin: 20px;
+    }
+}
